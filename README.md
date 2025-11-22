@@ -9,8 +9,9 @@
   .logo { width:84px; border-radius:50%; box-shadow:0 4px 16px #2d78d133; margin-bottom:12px; }
   h1 { margin:0 0 10px 0; font-size:2.2em; }
   .hero-img { width:96vw; max-width:440px; border-radius:12px; box-shadow:0 0 20px #2d78d11a; margin-top:16px; }
-  nav { margin:18px 0; text-align:center; }
-  
+  nav { margin:18px 0; text-align:center; } .login-btn { background:#2d78d1; color:#fff; font-size:1.15em; padding:11px 28px; border-radius:9px; text-decoration:none; transition:background .3s; cursor:pointer; border:none; }
+  .login-btn:hover { background:#fdc801; color:#143058; }
+  .login-choice { display:flex; gap:20px; justify-content:center; margin-bottom:20px; }
   .role-btn { width:74px; height:74px; background:#2d78d1; color:#fff; font-size:1.08em; border-radius:50%; border:none; cursor:pointer; transition:background .3s,transform .2s; }
   .role-btn:hover { background:#fdc801; color:#143058; transform:scale(1.09); }
   label { display:block; margin:15px 0 5px; text-align:left; }
@@ -22,8 +23,7 @@
   .dash-header { display:flex; gap:18px; align-items:center; margin-bottom:12px; position: relative;}
   .icon { width:47px; height:47px; background:#fdc801; color:#143058; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.7em; box-shadow:0 2px 14px #2d78d133; cursor:pointer; }
   .role-show { margin-left:auto; font-size:1.09em; color:#2d78d1; user-select:none; }
-  
-  .location-list, .event-list, #eventsContainer { margin-top:20px; }
+   .location-list, .event-list, #eventsContainer { margin-top:20px; }
   .event-card { background:#f6f8fa; border-radius:14px; box-shadow:0 1px 10px #2d78d11a; margin-bottom:22px; display:flex; align-items:center; gap:22px; padding:17px; }
   .event-icon { width:60px; height:60px; object-fit:cover; border-radius:10px; }
   .event-info { flex:1; }
@@ -34,8 +34,7 @@
   .register-btn { background:#2d78d1; color:#fff; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; transition: background .3s; }
   .register-btn:hover { background:#fdc801; color:#143058; }
   #organizer-section h2 { margin-bottom: 18px; }
-  
-  #organizer-section h3 { margin:15px 0; font-weight:700; }
+ #organizer-section h3 { margin:15px 0; font-weight:700; }
   form#eventForm { display:flex; flex-direction:column; gap:14px; }
   form#eventForm input[type=text], form#eventForm input[type=date], form#eventForm textarea, form#eventForm input[type=file] {
     border-radius:8px; border:1px solid #bbb; padding:10px; font-size:1em; width:100%; box-sizing: border-box;
@@ -43,8 +42,7 @@
   form#eventForm textarea { resize:none; }
   form#eventForm button { background:#2d78d1; color:#fff; border:none; padding:14px; border-radius:8px; cursor:pointer; font-size:1.1em; transition:background .3s; }
   form#eventForm button:hover { background:#fdc801; color:#143058; }
-  
-  #registration-section h2 { margin-bottom:18px; }
+   #registration-section h2 { margin-bottom:18px; }
   form#registrationForm { display:flex; flex-direction:column; gap:14px; max-width:480px; margin:0 auto; }
   form#registrationForm label { font-weight:600; }
   form#registrationForm button { background:#2d78d1; color:#fff; border:none; padding:14px; border-radius:8px; cursor:pointer; font-size:1.1em; transition:background .3s; margin-top:10px;}
@@ -70,7 +68,6 @@
     #dashboard-section, #organizer-section, #registration-section { padding:16px 10px; }
     .event-card { flex-direction: column; gap:14px; }
   }
-  
   .chatbot-icon {
     position: fixed; right: 18px; bottom: 22px; font-size: 2em; background: #2d78d1;
     color: #fff; border-radius: 50%; width: 48px; height: 48px;
@@ -167,20 +164,19 @@
     <input type="text" id="eventName" required />
         <label for="emailAddress">Email *</label>
     <input type="email" id="emailAddress" required />
-
-    <label>Date</label>
+<label>Date</label>
     <input type="date" id="eventDate" required />
 
-    <label>Location</label>
+ <label>Location</label>
     <input type="text" id="eventLocation" placeholder="e.g. North Campus" required />
 
-    <label>Description</label>
+  <label>Description</label>
     <textarea id="eventDesc" rows="4" placeholder="Event details..." required></textarea>
 
-    <label>Event Image</label>
+  <label>Event Image</label>
     <input type="file" id="eventImage" accept="image/*" />
 
-    <button type="submit">Add Event</button>
+  <button type="submit">Add Event</button>
   </form>
   <h3>Existing Events</h3>
   <div id="eventsContainer"></div>
@@ -191,7 +187,6 @@
 <footer>
   &copy; 2025 - Delhi University School of Open Learning | Event Management Portal
 </footer>
-
 <!-- Chatbot Icon + Box -->
 <div class="chatbot-icon" title="Help Chatbot">💬</div>
 
