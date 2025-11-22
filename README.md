@@ -10,9 +10,7 @@
   h1 { margin:0 0 10px 0; font-size:2.2em; }
   .hero-img { width:96vw; max-width:440px; border-radius:12px; box-shadow:0 0 20px #2d78d11a; margin-top:16px; }
   nav { margin:18px 0; text-align:center; }
-  .login-btn { background:#2d78d1; color:#fff; font-size:1.15em; padding:11px 28px; border-radius:9px; text-decoration:none; transition:background .3s; cursor:pointer; border:none; }
-  .login-btn:hover { background:#fdc801; color:#143058; }
-  .login-choice { display:flex; gap:20px; justify-content:center; margin-bottom:20px; }
+  
   .role-btn { width:74px; height:74px; background:#2d78d1; color:#fff; font-size:1.08em; border-radius:50%; border:none; cursor:pointer; transition:background .3s,transform .2s; }
   .role-btn:hover { background:#fdc801; color:#143058; transform:scale(1.09); }
   label { display:block; margin:15px 0 5px; text-align:left; }
