@@ -7,8 +7,7 @@
   /* [Previous CSS remains exactly the same - keeping it concise] */
   * { box-sizing: border-box; }
   body { margin:0; font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, sans-serif; background: linear-gradient(135deg, #f6f8fa 0%, #e9ecef 100%); line-height: 1.6; }
-  
- /* OTP Modal Styles */
+   /* OTP Modal Styles */
   .otp-modal {
     display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
     background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); z-index: 10002;
@@ -30,13 +29,11 @@
   .otp-input:focus { border-color: #2d78d1; box-shadow: 0 0 0 4px rgba(45,120,209,0.15); outline: none; }
   .otp-resend { color: #2d78d1; text-decoration: none; font-weight: 600; margin-top: 20px; display: inline-block; }
   .otp-resend:hover { text-decoration: underline; }
-  
   /* Backend Status */
   .backend-status { position: fixed; top: 20px; left: 20px; padding: 12px 20px; border-radius: 25px; font-size: 0.9em; font-weight: 600; z-index: 10003; }
   .status-online { background: linear-gradient(135deg, #28a745, #20c997); color: white; }
   .status-offline { background: #6c757d; color: white; animation: pulse 2s infinite; }
-  
-  /* Notification Toast */
+   /* Notification Toast */
   .toast { 
     position: fixed; top: 100px; right: 20px; padding: 16px 24px; border-radius: 12px; 
     color: white; font-weight: 600; z-index: 10004; transform: translateX(400px); 
@@ -46,8 +43,7 @@
   .toast.success { background: linear-gradient(135deg, #28a745, #20c997); }
   .toast.error { background: linear-gradient(135deg, #dc3545, #c82333); }
   .toast.info { background: linear-gradient(135deg, #17a2b8, #138496); }
-  
-  /* All previous styles remain the same... */
+/* All previous styles remain the same... */
   header { background: linear-gradient(135deg, #143058 0%, #1a3d6e 100%); padding:25px 20px; color:#fff; text-align:center; position: relative; overflow: hidden; }
   /* ... [Include all previous CSS from the enhanced version] ... */
 </style>
@@ -417,7 +413,6 @@
       }
     };
   });
-
   // [Include ALL previous functions: showStudentDashboard, renderStudentEvents, etc. exactly as before]
   // ... (rest of the previous JavaScript functions remain unchanged)
 </script>
