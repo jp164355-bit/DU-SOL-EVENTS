@@ -118,7 +118,7 @@
 
  <header>
   <img src="https://github.com/user-attachments/assets/4abc5761-14fa-4dca-8d36-c7ef8118590a" class="logo" alt="DU SOL Logo" />
-  <h1>Delhi University School of Open Learning</h1>
+  <h1> University of Delhi School of Open Learning</h1>
   <p class="hero-subtitle">Event Management Portal</p>
   <img src="https://github.com/user-attachments/assets/be0e5e85-36f3-4dd1-b6c8-6343f422e673" class="hero-img" alt="DU SOL Campus" />
 </header>
@@ -599,7 +599,7 @@
 </script>
 <footer style="text-align: center; padding: clamp(2rem, 8vw, 3rem) 0; color: var(--text-light); background: var(--white); margin-top: clamp(2rem, 8vw, 4rem); box-shadow: 0 -4px 16px rgba(0,0,0,0.05);">
   <div>
-    © 2025 Delhi University SOL | 
+    **© 2025 University of Delhi SOL** | 
     <a href="#" style="color: var(--secondary); text-decoration: none; margin: 0 0.5rem;">Privacy</a> | 
     <a href="#" style="color: var(--secondary); text-decoration: none;">Terms</a>
   </div>
