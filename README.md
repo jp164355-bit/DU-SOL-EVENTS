@@ -597,7 +597,7 @@
   // Initialize
   fixedLogoutBtn.style.display = 'none';
 </script>
-<footer
+<footer>
   <div>
     © 2025 Delhi University SOL | 
     <a href="#" style="color: var(--secondary); text-decoration: none; margin: 0 0.5rem;">Privacy</a> | 
